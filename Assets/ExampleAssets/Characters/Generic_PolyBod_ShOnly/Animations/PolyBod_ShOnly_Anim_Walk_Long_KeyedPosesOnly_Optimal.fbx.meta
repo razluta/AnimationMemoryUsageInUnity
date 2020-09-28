@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 7078ad472d82b104c98da03490c773d8
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: PolyBod_ShOnly_Anim_Walk_Long_KeyedPosesOnly_Optimal
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Inbetween bone
+      rotation in copied configuration does not match rotation in animation file:\n\t'PolyBod_Neck'
+      : rotation error = 4.470834 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'PolyBod_LeftLeg' has translation animation
+      that will be discarded.\n\t'PolyBod_RightLeg' has translation animation that
+      will be discarded.\n\t'PolyBod_Neck' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PolyBod_ShOnly_Anim_Walk_Long_KeyedPosesOnly_Optimal
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: PolyBod_ShOnly_Skeleton(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Model
+      parentName: PolyBod_ShOnly_Skeleton(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Reference
+      parentName: PolyBod_ShOnly_Skeleton(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Hips
+      parentName: PolyBod_Reference
+      position: {x: -0, y: 0.88059765, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftUpLeg
+      parentName: PolyBod_Hips
+      position: {x: -0.085236646, y: -0.041266706, z: 0.008776799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftLeg
+      parentName: PolyBod_LeftUpLeg
+      position: {x: 0.000000028610229, y: -0.35146105, z: -0.00074736594}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftFoot
+      parentName: PolyBod_LeftLeg
+      position: {x: 0.000000028610229, y: -0.3778435, z: -0.025367422}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftToeBase
+      parentName: PolyBod_LeftFoot
+      position: {x: -0.015210762, y: -0.10790682, z: 0.18160759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightUpLeg
+      parentName: PolyBod_Hips
+      position: {x: 0.085236646, y: -0.041266706, z: 0.008776799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightLeg
+      parentName: PolyBod_RightUpLeg
+      position: {x: 0.000000028610229, y: -0.35146105, z: -0.00074734987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightFoot
+      parentName: PolyBod_RightLeg
+      position: {x: 0.000000028610229, y: -0.3778435, z: -0.025367402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightToeBase
+      parentName: PolyBod_RightFoot
+      position: {x: 0.015210762, y: -0.10790682, z: 0.18160759}
+      rotation: {x: 0, y: -0.00004189127, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Spine
+      parentName: PolyBod_Hips
+      position: {x: -0, y: 0.051457822, z: 0.010613855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Spine1
+      parentName: PolyBod_Spine
+      position: {x: -0, y: 0.15028167, z: 0.00994985}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Spine2
+      parentName: PolyBod_Spine1
+      position: {x: 3.3369253e-17, y: 0.15028176, z: -0.020164499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftShoulder
+      parentName: PolyBod_Spine2
+      position: {x: -0.1484797, y: 0.09484383, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftArm
+      parentName: PolyBod_LeftShoulder
+      position: {x: -0.2617245, y: 0.0000024414062, z: 0}
+      rotation: {x: 0, y: 0, z: 0.000006416546, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftForeArm
+      parentName: PolyBod_LeftArm
+      position: {x: -0.14451003, y: 0.0000018545106, z: 0}
+      rotation: {x: 0, y: 0, z: -0.00011549782, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHand
+      parentName: PolyBod_LeftForeArm
+      position: {x: -0.1098669, y: -0.000023968845, z: 6.938894e-20}
+      rotation: {x: 0, y: 0, z: 0.0009817313, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex1
+      parentName: PolyBod_LeftHand
+      position: {x: -0.10062624, y: 0.0009924275, z: 0.030171907}
+      rotation: {x: 0, y: 0, z: -0.004177159, w: 0.9999913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex2
+      parentName: PolyBod_LeftHandIndex1
+      position: {x: -0.032658756, y: -0.0015642948, z: 0.0017639851}
+      rotation: {x: -0.0027062434, y: 0.0175213, z: -0.027768213, w: 0.9994572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex3
+      parentName: PolyBod_LeftHandIndex2
+      position: {x: -0.02804948, y: -0.004964523, z: -0.00042726993}
+      rotation: {x: 0, y: 0, z: -0.014956412, w: 0.9998882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex4
+      parentName: PolyBod_LeftHandIndex3
+      position: {x: -0.037004683, y: -0.010518738, z: -0.0013092923}
+      rotation: {x: 0, y: 0, z: 0.013878543, w: 0.9999037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandPinky1
+      parentName: PolyBod_LeftHand
+      position: {x: -0.100468166, y: 0.00090136164, z: -0.018737797}
+      rotation: {x: 0, y: 0, z: -0.0052358774, w: 0.9999863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandPinky2
+      parentName: PolyBod_LeftHandPinky1
+      position: {x: -0.035197552, y: 0.00061038655, z: -0.0008710885}
+      rotation: {x: 0.0019971235, y: 0.00078292406, z: -0.059890687, w: 0.9982027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandPinky3
+      parentName: PolyBod_LeftHandPinky2
+      position: {x: -0.031206952, y: -0.0056184223, z: -0.00084255217}
+      rotation: {x: 0, y: 0, z: -0.0550623, w: 0.99848294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb1
+      parentName: PolyBod_LeftHand
+      position: {x: -0.06093765, y: -0.0017832967, z: 0.051859505}
+      rotation: {x: -0.11855936, y: -0.11516792, z: -0.122078754, w: 0.9786607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb2
+      parentName: PolyBod_LeftHandThumb1
+      position: {x: -0.009898318, y: -0.011172322, z: 0.020723041}
+      rotation: {x: 0.009739697, y: -0.03162948, z: -0.0027445126, w: 0.9994485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb3
+      parentName: PolyBod_LeftHandThumb2
+      position: {x: -0.011287552, y: -0.011391069, z: 0.028623769}
+      rotation: {x: -0.030994218, y: 0.043115824, z: -0.00032549814, w: 0.9985892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb4
+      parentName: PolyBod_LeftHandThumb3
+      position: {x: -0.012457491, y: -0.01147981, z: 0.020411732}
+      rotation: {x: 0, y: 0, z: 0.002585865, w: 0.99999666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Neck
+      parentName: PolyBod_Spine2
+      position: {x: 1.2653809e-16, y: 0.15028176, z: -0.005056317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Head
+      parentName: PolyBod_Neck
+      position: {x: 9.555922e-17, y: 0.08941269, z: 0.022600634}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightShoulder
+      parentName: PolyBod_Spine2
+      position: {x: 0.1484797, y: 0.09484383, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightArm
+      parentName: PolyBod_RightShoulder
+      position: {x: 0.2617245, y: 0.0000024414062, z: 0}
+      rotation: {x: 0, y: 0, z: -0.000020231517, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightForeArm
+      parentName: PolyBod_RightArm
+      position: {x: 0.14451003, y: 0.0000058473147, z: 6.938894e-20}
+      rotation: {x: 0, y: 0, z: 0.0003641673, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHand
+      parentName: PolyBod_RightForeArm
+      position: {x: 0.10986687, y: -0.00007557431, z: 0}
+      rotation: {x: 0, y: 0, z: -0.003095417, w: 0.99999523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex1
+      parentName: PolyBod_RightHand
+      position: {x: 0.100621805, y: 0.0013705399, z: 0.030171907}
+      rotation: {x: 0, y: 0, z: 0.013170336, w: 0.9999133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex2
+      parentName: PolyBod_RightHandIndex1
+      position: {x: 0.03263319, y: -0.002028836, z: 0.0017639851}
+      rotation: {x: -0.002574247, y: -0.017541178, z: 0.006016594, w: 0.9998247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex3
+      parentName: PolyBod_RightHandIndex2
+      position: {x: 0.02818283, y: -0.0041410057, z: -0.00042726993}
+      rotation: {x: 0, y: 0, z: 0.047142185, w: 0.9988882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex4
+      parentName: PolyBod_RightHandIndex3
+      position: {x: 0.03661255, y: -0.011811503, z: -0.0013092923}
+      rotation: {x: 0, y: 0, z: -0.043746807, w: 0.9990427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandPinky1
+      parentName: PolyBod_RightHand
+      position: {x: 0.100464076, y: 0.0012788808, z: -0.018737797}
+      rotation: {x: 0, y: 0, z: 0.016508168, w: 0.99986374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandPinky2
+      parentName: PolyBod_RightHandPinky1
+      position: {x: 0.03520281, y: -0.00005098655, z: -0.0008710885}
+      rotation: {x: 0.002322644, y: -0.018185945, z: 0.017631551, w: 0.99967647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandPinky3
+      parentName: PolyBod_RightHandPinky2
+      position: {x: 0.031459976, y: -0.003556713, z: -0.0019417105}
+      rotation: {x: -0.031862292, y: 0.28919506, z: 0.16880599, w: 0.9417301}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb1
+      parentName: PolyBod_RightHand
+      position: {x: 0.06094392, y: -0.0015543009, z: 0.051859505}
+      rotation: {x: -0.11814785, y: 0.115588866, z: 0.12924084, w: 0.9777408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb2
+      parentName: PolyBod_RightHandThumb1
+      position: {x: 0.00977611, y: -0.0112794135, z: 0.020723041}
+      rotation: {x: 0.009683914, y: 0.031646576, z: -0.009888963, w: 0.9994033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb3
+      parentName: PolyBod_RightHandThumb2
+      position: {x: 0.011450352, y: -0.0112274075, z: 0.02862377}
+      rotation: {x: -0.030877065, y: -0.043198835, z: 0.01199642, w: 0.9985172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb4
+      parentName: PolyBod_RightHandThumb3
+      position: {x: 0.0123539055, y: -0.011591211, z: 0.020411722}
+      rotation: {x: 0, y: 0, z: -0.008153211, w: 0.9999668}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: PolyBod_Reference
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0096fbfe7d56de04782eda411acb28a0,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

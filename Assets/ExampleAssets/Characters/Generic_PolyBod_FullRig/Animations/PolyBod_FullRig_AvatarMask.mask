@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PolyBod_FullRig_AvatarMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference
+    m_Weight: 0
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_ChestEndEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_ChestOriginEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_HeadEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_LeftUpLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_LeftUpLeg/PolyBod_Ctrl_LeftLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_LeftUpLeg/PolyBod_Ctrl_LeftLeg/PolyBod_Ctrl_LeftFoot
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_LeftUpLeg/PolyBod_Ctrl_LeftLeg/PolyBod_Ctrl_LeftFoot/PolyBod_Ctrl_LeftToeBase
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_RightUpLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_RightUpLeg/PolyBod_Ctrl_RightLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_RightUpLeg/PolyBod_Ctrl_RightLeg/PolyBod_Ctrl_RightFoot
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_RightUpLeg/PolyBod_Ctrl_RightLeg/PolyBod_Ctrl_RightFoot/PolyBod_Ctrl_RightToeBase
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandIndex1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandIndex1/PolyBod_Ctrl_LeftHandIndex2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandIndex1/PolyBod_Ctrl_LeftHandIndex2/PolyBod_Ctrl_LeftHandIndex3
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandIndex1/PolyBod_Ctrl_LeftHandIndex2/PolyBod_Ctrl_LeftHandIndex3/PolyBod_Ctrl_LeftHandIndex4
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandPinky1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandPinky1/PolyBod_Ctrl_LeftHandPinky2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandPinky1/PolyBod_Ctrl_LeftHandPinky2/PolyBod_Ctrl_LeftHandPinky3
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandPinky1/PolyBod_Ctrl_LeftHandPinky2/PolyBod_Ctrl_LeftHandPinky3/PolyBod_Ctrl_LeftHandPinky4
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandThumb1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandThumb1/PolyBod_Ctrl_LeftHandThumb2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandThumb1/PolyBod_Ctrl_LeftHandThumb2/PolyBod_Ctrl_LeftHandThumb3
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_LeftShoulder/PolyBod_Ctrl_LeftArm/PolyBod_Ctrl_LeftForeArm/PolyBod_Ctrl_LeftHand/PolyBod_Ctrl_LeftHandThumb1/PolyBod_Ctrl_LeftHandThumb2/PolyBod_Ctrl_LeftHandThumb3/PolyBod_Ctrl_LeftHandThumb4
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_Neck
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_Neck/PolyBod_Ctrl_Head
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandIndex1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandIndex1/PolyBod_Ctrl_RightHandIndex2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandIndex1/PolyBod_Ctrl_RightHandIndex2/PolyBod_Ctrl_RightHandIndex3
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandIndex1/PolyBod_Ctrl_RightHandIndex2/PolyBod_Ctrl_RightHandIndex3/PolyBod_Ctrl_RightHandIndex4
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandPinky1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandPinky1/PolyBod_Ctrl_RightHandPinky2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandPinky1/PolyBod_Ctrl_RightHandPinky2/PolyBod_Ctrl_RightHandPinky3
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandPinky1/PolyBod_Ctrl_RightHandPinky2/PolyBod_Ctrl_RightHandPinky3/PolyBod_Ctrl_RightHandPinky4
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandThumb1
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandThumb1/PolyBod_Ctrl_RightHandThumb2
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandThumb1/PolyBod_Ctrl_RightHandThumb2/PolyBod_Ctrl_RightHandThumb3
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_Hips/PolyBod_Ctrl_Spine/PolyBod_Ctrl_Spine1/PolyBod_Ctrl_Spine2/PolyBod_Ctrl_RightShoulder/PolyBod_Ctrl_RightArm/PolyBod_Ctrl_RightForeArm/PolyBod_Ctrl_RightHand/PolyBod_Ctrl_RightHandThumb1/PolyBod_Ctrl_RightHandThumb2/PolyBod_Ctrl_RightHandThumb3/PolyBod_Ctrl_RightHandThumb4
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_HipsEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftAnkleEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftElbowEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftFootEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftHandIndexEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftHandPinkyEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftHandThumbEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftHipEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftKneeEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftShoulderEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_LeftWristEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightAnkleEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightElbowEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightFootEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightHandIndexEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightHandPinkyEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightHandThumbEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightHipEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightKneeEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightShoulderEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Ctrl_Reference/PolyBod_Ctrl_RightWristEffector
+    m_Weight: 1
+  - m_Path: PolyBod_Model
+    m_Weight: 1
+  - m_Path: PolyBod_Reference
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_LeftUpLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_LeftUpLeg/PolyBod_LeftLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_LeftUpLeg/PolyBod_LeftLeg/PolyBod_LeftFoot
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_LeftUpLeg/PolyBod_LeftLeg/PolyBod_LeftFoot/PolyBod_LeftToeBase
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_RightUpLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_RightUpLeg/PolyBod_RightLeg
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_RightUpLeg/PolyBod_RightLeg/PolyBod_RightFoot
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_RightUpLeg/PolyBod_RightLeg/PolyBod_RightFoot/PolyBod_RightToeBase
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandIndex1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandIndex1/PolyBod_LeftHandIndex2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandIndex1/PolyBod_LeftHandIndex2/PolyBod_LeftHandIndex3
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandIndex1/PolyBod_LeftHandIndex2/PolyBod_LeftHandIndex3/PolyBod_LeftHandIndex4
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandPinky1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandPinky1/PolyBod_LeftHandPinky2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandPinky1/PolyBod_LeftHandPinky2/PolyBod_LeftHandPinky3
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandThumb1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandThumb1/PolyBod_LeftHandThumb2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandThumb1/PolyBod_LeftHandThumb2/PolyBod_LeftHandThumb3
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_LeftShoulder/PolyBod_LeftArm/PolyBod_LeftForeArm/PolyBod_LeftHand/PolyBod_LeftHandThumb1/PolyBod_LeftHandThumb2/PolyBod_LeftHandThumb3/PolyBod_LeftHandThumb4
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_Neck
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_Neck/PolyBod_Head
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandIndex1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandIndex1/PolyBod_RightHandIndex2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandIndex1/PolyBod_RightHandIndex2/PolyBod_RightHandIndex3
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandIndex1/PolyBod_RightHandIndex2/PolyBod_RightHandIndex3/PolyBod_RightHandIndex4
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandPinky1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandPinky1/PolyBod_RightHandPinky2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandPinky1/PolyBod_RightHandPinky2/PolyBod_RightHandPinky3
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandThumb1
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandThumb1/PolyBod_RightHandThumb2
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandThumb1/PolyBod_RightHandThumb2/PolyBod_RightHandThumb3
+    m_Weight: 1
+  - m_Path: PolyBod_Reference/PolyBod_Hips/PolyBod_Spine/PolyBod_Spine1/PolyBod_Spine2/PolyBod_RightShoulder/PolyBod_RightArm/PolyBod_RightForeArm/PolyBod_RightHand/PolyBod_RightHandThumb1/PolyBod_RightHandThumb2/PolyBod_RightHandThumb3/PolyBod_RightHandThumb4
+    m_Weight: 1

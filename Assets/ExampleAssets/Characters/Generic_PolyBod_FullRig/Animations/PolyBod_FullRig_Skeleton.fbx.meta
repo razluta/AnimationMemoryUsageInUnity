@@ -1,0 +1,688 @@
+fileFormatVersion: 2
+guid: af4cc4ce71f72584dbeb47c1dcca7c3b
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: PolyBod_FullRig_Skeleton(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Model
+      parentName: PolyBod_FullRig_Skeleton(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Reference
+      parentName: PolyBod_FullRig_Skeleton(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Hips
+      parentName: PolyBod_Reference
+      position: {x: -0, y: 0.88059765, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftUpLeg
+      parentName: PolyBod_Hips
+      position: {x: -0.085236646, y: -0.041266706, z: 0.008776799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftLeg
+      parentName: PolyBod_LeftUpLeg
+      position: {x: 0.000000028610229, y: -0.35146105, z: -0.00074736594}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftFoot
+      parentName: PolyBod_LeftLeg
+      position: {x: 0.000000028610229, y: -0.3778435, z: -0.025367422}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftToeBase
+      parentName: PolyBod_LeftFoot
+      position: {x: -0.015210762, y: -0.10790682, z: 0.18160759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightUpLeg
+      parentName: PolyBod_Hips
+      position: {x: 0.085236646, y: -0.041266706, z: 0.008776799}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightLeg
+      parentName: PolyBod_RightUpLeg
+      position: {x: 0.000000028610229, y: -0.35146105, z: -0.00074734987}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightFoot
+      parentName: PolyBod_RightLeg
+      position: {x: 0.000000028610229, y: -0.3778435, z: -0.025367402}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightToeBase
+      parentName: PolyBod_RightFoot
+      position: {x: 0.015210762, y: -0.10790682, z: 0.18160759}
+      rotation: {x: 0, y: -0.00004189127, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Spine
+      parentName: PolyBod_Hips
+      position: {x: -0, y: 0.051457822, z: 0.010613855}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Spine1
+      parentName: PolyBod_Spine
+      position: {x: -0, y: 0.15028167, z: 0.00994985}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Spine2
+      parentName: PolyBod_Spine1
+      position: {x: 3.3369253e-17, y: 0.15028176, z: -0.020164499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftShoulder
+      parentName: PolyBod_Spine2
+      position: {x: -0.1484797, y: 0.09484383, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftArm
+      parentName: PolyBod_LeftShoulder
+      position: {x: -0.2617245, y: 0.0000024414062, z: 0}
+      rotation: {x: 0, y: 0, z: 0.000006416546, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftForeArm
+      parentName: PolyBod_LeftArm
+      position: {x: -0.14451003, y: 0.0000018545106, z: 0}
+      rotation: {x: 0, y: 0, z: -0.00011549782, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHand
+      parentName: PolyBod_LeftForeArm
+      position: {x: -0.1098669, y: -0.000023968845, z: 6.938894e-20}
+      rotation: {x: 0, y: 0, z: 0.0009817313, w: 0.9999995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb1
+      parentName: PolyBod_LeftHand
+      position: {x: -0.06093765, y: -0.0017832967, z: 0.051859505}
+      rotation: {x: -0.11855936, y: -0.11516792, z: -0.122078754, w: 0.9786607}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb2
+      parentName: PolyBod_LeftHandThumb1
+      position: {x: -0.009898318, y: -0.011172322, z: 0.020723041}
+      rotation: {x: 0.009739697, y: -0.03162948, z: -0.0027445126, w: 0.9994485}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb3
+      parentName: PolyBod_LeftHandThumb2
+      position: {x: -0.011287552, y: -0.011391069, z: 0.028623769}
+      rotation: {x: -0.030994218, y: 0.043115824, z: -0.00032549814, w: 0.9985892}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandThumb4
+      parentName: PolyBod_LeftHandThumb3
+      position: {x: -0.012457491, y: -0.01147981, z: 0.020411732}
+      rotation: {x: 0, y: 0, z: 0.002585865, w: 0.99999666}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex1
+      parentName: PolyBod_LeftHand
+      position: {x: -0.10062624, y: 0.0009924275, z: 0.030171907}
+      rotation: {x: 0, y: 0, z: -0.004177159, w: 0.9999913}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex2
+      parentName: PolyBod_LeftHandIndex1
+      position: {x: -0.032658756, y: -0.0015642948, z: 0.0017639851}
+      rotation: {x: -0.0027062434, y: 0.0175213, z: -0.027768213, w: 0.9994572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex3
+      parentName: PolyBod_LeftHandIndex2
+      position: {x: -0.02804948, y: -0.004964523, z: -0.00042726993}
+      rotation: {x: 0, y: 0, z: -0.014956412, w: 0.9998882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandIndex4
+      parentName: PolyBod_LeftHandIndex3
+      position: {x: -0.037004683, y: -0.010518738, z: -0.0013092923}
+      rotation: {x: 0, y: 0, z: 0.013878543, w: 0.9999037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandPinky1
+      parentName: PolyBod_LeftHand
+      position: {x: -0.100468166, y: 0.00090136164, z: -0.018737797}
+      rotation: {x: 0, y: 0, z: -0.0052358774, w: 0.9999863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandPinky2
+      parentName: PolyBod_LeftHandPinky1
+      position: {x: -0.035197552, y: 0.00061038655, z: -0.0008710885}
+      rotation: {x: 0.0019971235, y: 0.00078292406, z: -0.059890687, w: 0.9982027}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_LeftHandPinky3
+      parentName: PolyBod_LeftHandPinky2
+      position: {x: -0.031206952, y: -0.0056184223, z: -0.00084255217}
+      rotation: {x: 0, y: 0, z: -0.0550623, w: 0.99848294}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightShoulder
+      parentName: PolyBod_Spine2
+      position: {x: 0.1484797, y: 0.09484383, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightArm
+      parentName: PolyBod_RightShoulder
+      position: {x: 0.2617245, y: 0.0000024414062, z: 0}
+      rotation: {x: 0, y: 0, z: -0.000020231517, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightForeArm
+      parentName: PolyBod_RightArm
+      position: {x: 0.14451003, y: 0.0000058473147, z: 6.938894e-20}
+      rotation: {x: 0, y: 0, z: 0.0003641673, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHand
+      parentName: PolyBod_RightForeArm
+      position: {x: 0.10986687, y: -0.00007557431, z: 0}
+      rotation: {x: 0, y: 0, z: -0.003095417, w: 0.99999523}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb1
+      parentName: PolyBod_RightHand
+      position: {x: 0.06094392, y: -0.0015543009, z: 0.051859505}
+      rotation: {x: -0.11814785, y: 0.115588866, z: 0.12924084, w: 0.9777408}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb2
+      parentName: PolyBod_RightHandThumb1
+      position: {x: 0.00977611, y: -0.0112794135, z: 0.020723041}
+      rotation: {x: 0.009683914, y: 0.031646576, z: -0.009888963, w: 0.9994033}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb3
+      parentName: PolyBod_RightHandThumb2
+      position: {x: 0.011450352, y: -0.0112274075, z: 0.02862377}
+      rotation: {x: -0.030877063, y: -0.04319883, z: 0.011996419, w: 0.99851716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandThumb4
+      parentName: PolyBod_RightHandThumb3
+      position: {x: 0.0123539055, y: -0.011591211, z: 0.020411722}
+      rotation: {x: 0, y: 0, z: -0.008153211, w: 0.9999668}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex1
+      parentName: PolyBod_RightHand
+      position: {x: 0.100621805, y: 0.0013705399, z: 0.030171907}
+      rotation: {x: 0, y: 0, z: 0.013170336, w: 0.9999133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex2
+      parentName: PolyBod_RightHandIndex1
+      position: {x: 0.03263319, y: -0.002028836, z: 0.0017639851}
+      rotation: {x: -0.0025742468, y: -0.017541178, z: 0.0060165934, w: 0.9998247}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex3
+      parentName: PolyBod_RightHandIndex2
+      position: {x: 0.02818283, y: -0.0041410057, z: -0.00042726993}
+      rotation: {x: 0, y: 0, z: 0.047142185, w: 0.9988882}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandIndex4
+      parentName: PolyBod_RightHandIndex3
+      position: {x: 0.03661255, y: -0.011811503, z: -0.0013092923}
+      rotation: {x: 0, y: 0, z: -0.043746807, w: 0.9990427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandPinky1
+      parentName: PolyBod_RightHand
+      position: {x: 0.100464076, y: 0.0012788808, z: -0.018737797}
+      rotation: {x: 0, y: 0, z: 0.016508168, w: 0.99986374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandPinky2
+      parentName: PolyBod_RightHandPinky1
+      position: {x: 0.03520281, y: -0.00005098655, z: -0.0008710885}
+      rotation: {x: 0.0023226438, y: -0.018185943, z: 0.01763155, w: 0.9996764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_RightHandPinky3
+      parentName: PolyBod_RightHandPinky2
+      position: {x: 0.031459976, y: -0.003556713, z: -0.0019417105}
+      rotation: {x: -0.031862292, y: 0.28919506, z: 0.16880599, w: 0.9417301}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Neck
+      parentName: PolyBod_Spine2
+      position: {x: 1.2653809e-16, y: 0.15028176, z: -0.005056317}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Head
+      parentName: PolyBod_Neck
+      position: {x: 9.555922e-17, y: 0.08941269, z: 0.022600634}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Reference
+      parentName: PolyBod_FullRig_Skeleton(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_HipsEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0, y: 0.839331, z: 0.008776799}
+      rotation: {x: 3.061617e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftAnkleEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.08523659, y: 0.1100264, z: -0.017337989}
+      rotation: {x: -1.3400739e-16, y: 1.179612e-16, z: 5.89806e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightAnkleEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.0852367, y: 0.1100264, z: -0.017337957}
+      rotation: {x: 2.177078e-16, y: 1.179612e-16, z: -2.0469737e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftWristEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.6645811, y: 1.3274652, z: 0.00039918546}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightWristEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.6645811, y: 1.3274652, z: 0.00039921128}
+      rotation: {x: -6.162976e-33, y: 6.123234e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftKneeEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.085236624, y: 0.4878699, z: 0.008029457}
+      rotation: {x: 8.326673e-17, y: -6.162976e-33, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightKneeEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.08523666, y: 0.4878699, z: 0.008029483}
+      rotation: {x: 8.326673e-17, y: -6.162976e-33, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftElbowEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.5547142, y: 1.3274652, z: 0.00039916692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightElbowEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.5547142, y: 1.3274652, z: 0.00039919274}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_ChestOriginEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0, y: 0.9320555, z: 0.010613855}
+      rotation: {x: -6.938894e-18, y: -6.162976e-33, z: -1.2325952e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_ChestEndEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0, y: 1.3274628, z: 0.0003992057}
+      rotation: {x: -3.469447e-17, y: 1.4896596e-16, z: 3.0047205e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftFootEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.10044735, y: 0.0021195794, z: 0.1642696}
+      rotation: {x: -4.827153e-33, y: 0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightFootEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.10044746, y: 0.0021195794, z: 0.16426964}
+      rotation: {x: -4.827153e-33, y: 0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftShoulderEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.4102042, y: 1.3274652, z: 0.0003992057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightShoulderEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.4102042, y: 1.3274652, z: 0.0003992057}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_HeadEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0, y: 1.4723134, z: 0.017943522}
+      rotation: {x: 3.061617e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHipEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.085236646, y: 0.839331, z: 0.008776799}
+      rotation: {x: 2.7755576e-17, y: 8.3325556e-17, z: -2.7578463e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHipEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.085236646, y: 0.839331, z: 0.008776799}
+      rotation: {x: 2.7755576e-17, y: 8.3325556e-17, z: -2.7578463e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandThumbEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.7591867, y: 1.2915595, z: 0.122017264}
+      rotation: {x: -5.551115e-17, y: 2.0816682e-17, z: 1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandIndexEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.863028, y: 1.3116741, z: 0.030598516}
+      rotation: {x: -1.1535911e-16, y: -4.510281e-17, z: 2.1358783e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandPinkyEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0.8662871, y: 1.3105937, z: -0.018951135}
+      rotation: {x: 1.5265567e-16, y: -2.7755576e-17, z: 4.655022e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandThumbEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.7591867, y: 1.2915595, z: 0.122017294}
+      rotation: {x: 2.7755576e-17, y: 4.1633363e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandIndexEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.863028, y: 1.3116741, z: 0.030598551}
+      rotation: {x: -1.7347235e-18, y: -3.469447e-18, z: -1.2061749e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandPinkyEffector
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: 0.86628723, y: 1.3105937, z: -0.018951114}
+      rotation: {x: -3.469446e-18, y: 0.000000042608004, z: -2.219904e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Hips
+      parentName: PolyBod_Ctrl_Reference
+      position: {x: -0, y: 0.88059765, z: 0}
+      rotation: {x: 3.061617e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftUpLeg
+      parentName: PolyBod_Ctrl_Hips
+      position: {x: -0.085236646, y: -0.041266706, z: 0.008776799}
+      rotation: {x: 2.7755576e-17, y: 8.3325556e-17, z: -2.7578463e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftLeg
+      parentName: PolyBod_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.35146105, z: -0.0007473105}
+      rotation: {x: 8.326673e-17, y: -6.162976e-33, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftFoot
+      parentName: PolyBod_Ctrl_LeftLeg
+      position: {x: 1.7763568e-17, y: -0.3778435, z: -0.025367364}
+      rotation: {x: -1.3400739e-16, y: 1.179612e-16, z: 5.89806e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftToeBase
+      parentName: PolyBod_Ctrl_LeftFoot
+      position: {x: -0.015210762, y: -0.10790682, z: 0.18160759}
+      rotation: {x: -4.827153e-33, y: 0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightUpLeg
+      parentName: PolyBod_Ctrl_Hips
+      position: {x: 0.085236646, y: -0.041266706, z: 0.008776799}
+      rotation: {x: 2.7755576e-17, y: 8.3325556e-17, z: -2.7578463e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightLeg
+      parentName: PolyBod_Ctrl_RightUpLeg
+      position: {x: -0, y: -0.35146105, z: -0.0007473105}
+      rotation: {x: 8.326673e-17, y: -6.162976e-33, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightFoot
+      parentName: PolyBod_Ctrl_RightLeg
+      position: {x: -1.7763568e-17, y: -0.3778435, z: -0.025367364}
+      rotation: {x: 2.177078e-16, y: 1.179612e-16, z: -2.0469737e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightToeBase
+      parentName: PolyBod_Ctrl_RightFoot
+      position: {x: 0.015210762, y: -0.10790682, z: 0.18160759}
+      rotation: {x: -4.827153e-33, y: 0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Spine
+      parentName: PolyBod_Ctrl_Hips
+      position: {x: -0, y: 0.051457822, z: 0.010613855}
+      rotation: {x: -6.938894e-18, y: -6.162976e-33, z: -1.2325952e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Spine1
+      parentName: PolyBod_Ctrl_Spine
+      position: {x: -0, y: 0.15028167, z: 0.00994985}
+      rotation: {x: -1.110223e-16, y: -9.0535075e-18, z: 1.4123635e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Spine2
+      parentName: PolyBod_Ctrl_Spine1
+      position: {x: -0, y: 0.15028176, z: -0.020164499}
+      rotation: {x: -3.469447e-17, y: 1.4896596e-16, z: 3.0047205e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftShoulder
+      parentName: PolyBod_Ctrl_Spine2
+      position: {x: -0.1484797, y: 0.09484383, z: 0}
+      rotation: {x: 0, y: 0, z: 8.4703295e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftArm
+      parentName: PolyBod_Ctrl_LeftShoulder
+      position: {x: -0.2617245, y: 0.0000024414062, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftForeArm
+      parentName: PolyBod_Ctrl_LeftArm
+      position: {x: -0.14451003, y: 0, z: 6.938894e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHand
+      parentName: PolyBod_Ctrl_LeftForeArm
+      position: {x: -0.1098669, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandThumb1
+      parentName: PolyBod_Ctrl_LeftHand
+      position: {x: -0.060934447, y: -0.0018896484, z: 0.0518595}
+      rotation: {x: -1.3877788e-16, y: -4.1633363e-17, z: 9.7144515e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandThumb2
+      parentName: PolyBod_Ctrl_LeftHandThumb1
+      position: {x: -0.009954682, y: -0.011122131, z: 0.020723041}
+      rotation: {x: 5.551115e-17, y: 1.2836954e-16, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandThumb3
+      parentName: PolyBod_Ctrl_LeftHandThumb2
+      position: {x: -0.011211166, y: -0.011466217, z: 0.02862377}
+      rotation: {x: -5.551115e-17, y: 9.020562e-17, z: 2.0816682e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandThumb4
+      parentName: PolyBod_Ctrl_LeftHandThumb3
+      position: {x: -0.012505264, y: -0.011427765, z: 0.02041172}
+      rotation: {x: -5.551115e-17, y: 2.0816682e-17, z: 1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandIndex1
+      parentName: PolyBod_Ctrl_LeftHand
+      position: {x: -0.10062782, y: 0.00081680296, z: 0.030171907}
+      rotation: {x: 4.3368087e-19, y: -6.938894e-18, z: 9.75782e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandIndex2
+      parentName: PolyBod_Ctrl_LeftHandIndex1
+      position: {x: -0.03266838, y: -0.0013484191, z: 0.0017639851}
+      rotation: {x: 4.3368087e-19, y: -1.7347235e-18, z: 2.8053731e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandIndex3
+      parentName: PolyBod_Ctrl_LeftHandIndex2
+      position: {x: -0.027979353, y: -0.0053456114, z: -0.00042726993}
+      rotation: {x: 2.6020852e-18, y: -1.0408341e-17, z: -1.37422625e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandIndex4
+      parentName: PolyBod_Ctrl_LeftHandIndex3
+      position: {x: -0.037171327, y: -0.009913787, z: -0.0013092923}
+      rotation: {x: -1.1535911e-16, y: -4.510281e-17, z: 2.1358783e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandPinky1
+      parentName: PolyBod_Ctrl_LeftHand
+      position: {x: -0.10046959, y: 0.00072601315, z: -0.018737797}
+      rotation: {x: 2.7105054e-19, y: 5.2041704e-18, z: -3.4491182e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandPinky2
+      parentName: PolyBod_Ctrl_LeftHandPinky1
+      position: {x: -0.035190888, y: 0.00091751094, z: -0.0008710885}
+      rotation: {x: -1.7347235e-18, y: 3.469447e-18, z: 3.3610267e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandPinky3
+      parentName: PolyBod_Ctrl_LeftHandPinky2
+      position: {x: -0.031020736, y: -0.0065692137, z: -0.00084255217}
+      rotation: {x: -5.2041704e-18, y: 1.5612511e-17, z: -4.092863e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_LeftHandPinky4
+      parentName: PolyBod_Ctrl_LeftHandPinky3
+      position: {x: -0.035024796, y: -0.011945801, z: 0.0011011194}
+      rotation: {x: 1.5265567e-16, y: -2.7755576e-17, z: 4.655022e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightShoulder
+      parentName: PolyBod_Ctrl_Spine2
+      position: {x: 0.1484797, y: 0.09484383, z: 0}
+      rotation: {x: 0, y: 0, z: -8.4703295e-22, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightArm
+      parentName: PolyBod_Ctrl_RightShoulder
+      position: {x: 0.2617245, y: 0.0000024414062, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightForeArm
+      parentName: PolyBod_Ctrl_RightArm
+      position: {x: 0.14451003, y: 0, z: 6.938894e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHand
+      parentName: PolyBod_Ctrl_RightForeArm
+      position: {x: 0.1098669, y: 0, z: 0}
+      rotation: {x: -6.162976e-33, y: 6.123234e-17, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandThumb1
+      parentName: PolyBod_Ctrl_RightHand
+      position: {x: 0.060934447, y: -0.0018896484, z: 0.0518595}
+      rotation: {x: -5.551115e-17, y: 6.2450045e-17, z: -1.8041124e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandThumb2
+      parentName: PolyBod_Ctrl_RightHandThumb1
+      position: {x: 0.009954682, y: -0.011122131, z: 0.020723041}
+      rotation: {x: 1.3877788e-16, y: 1.6653345e-16, z: -9.7144515e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandThumb3
+      parentName: PolyBod_Ctrl_RightHandThumb2
+      position: {x: 0.011211166, y: -0.011466217, z: 0.02862377}
+      rotation: {x: -5.551115e-17, y: -2.0816682e-17, z: -1.9428903e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandThumb4
+      parentName: PolyBod_Ctrl_RightHandThumb3
+      position: {x: 0.012505264, y: -0.011427765, z: 0.02041172}
+      rotation: {x: 2.7755576e-17, y: 4.1633363e-17, z: 5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandIndex1
+      parentName: PolyBod_Ctrl_RightHand
+      position: {x: 0.10062782, y: 0.00081680296, z: 0.030171907}
+      rotation: {x: -2.1684043e-18, y: -6.938894e-18, z: -2.1835832e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandIndex2
+      parentName: PolyBod_Ctrl_RightHandIndex1
+      position: {x: 0.03266838, y: -0.0013484191, z: 0.0017639851}
+      rotation: {x: 2.1684043e-19, y: -7.728875e-37, z: -3.5643146e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandIndex3
+      parentName: PolyBod_Ctrl_RightHandIndex2
+      position: {x: 0.027979353, y: -0.0053456114, z: -0.00042726993}
+      rotation: {x: -8.6736174e-19, y: -6.938894e-18, z: -2.3310347e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandIndex4
+      parentName: PolyBod_Ctrl_RightHandIndex3
+      position: {x: 0.037171327, y: -0.009913787, z: -0.0013092923}
+      rotation: {x: -1.7347235e-18, y: -3.469447e-18, z: -1.2061749e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandPinky1
+      parentName: PolyBod_Ctrl_RightHand
+      position: {x: 0.10046959, y: 0.00072601315, z: -0.018737797}
+      rotation: {x: 1.6805134e-18, y: -1.7347235e-18, z: 3.0154373e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandPinky2
+      parentName: PolyBod_Ctrl_RightHandPinky1
+      position: {x: 0.035190888, y: 0.00091751094, z: -0.0008710885}
+      rotation: {x: 8.6736174e-19, y: 3.469447e-18, z: -8.592302e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandPinky3
+      parentName: PolyBod_Ctrl_RightHandPinky2
+      position: {x: 0.031020736, y: -0.0065692137, z: -0.00084255217}
+      rotation: {x: -2.6020796e-18, y: 0.00000004196772, z: -1.3346529e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_RightHandPinky4
+      parentName: PolyBod_Ctrl_RightHandPinky3
+      position: {x: 0.035024796, y: -0.011945801, z: 0.0011011194}
+      rotation: {x: 0.000000013038518, y: -0.000000029569488, z: -0.000000048428774,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Neck
+      parentName: PolyBod_Ctrl_Spine2
+      position: {x: -0, y: 0.15028176, z: -0.005056317}
+      rotation: {x: 2.8983268e-32, y: -1.4844773e-16, z: 1.3424834e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: PolyBod_Ctrl_Head
+      parentName: PolyBod_Ctrl_Neck
+      position: {x: -0, y: 0.08941269, z: 0.022600634}
+      rotation: {x: 3.061617e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: PolyBod_Reference
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
