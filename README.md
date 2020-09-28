@@ -1,4 +1,4 @@
-# Animation Memory Usage in Unity
+# Animation Memory Usage in Unity [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
 This repository tries to analyze all possible things that could go result in less than optimal memory usage when bringing in different types of 3D animations into Unity.
 
 ## Conclusions
@@ -7,7 +7,7 @@ To best optimize and minimize the memory usage of an animation clip, the followi
 
 1.  No single animation animations should contain the mesh, but only the rig joints and the animation on them. As demonstrated in the examples in the repository, having the mesh in the animation file does not increase the animation size in memory (because only the animation data is used to generated the Unity Animation Clip), but it considerably increases the animation file size on disk. In this example, the size delta is about 300 KB per file. Multiply that by 50 animations per character, in a project of 100 characters, that is over 1.4 GB of wasted space. Additionally, having the mesh in the animation file presents the added risk of accidentally using that mesh in the game in a scene, at which point Unity would have a duplicate of that mesh in memory and the actual runtime memory will also increase by 300 KB times the number of accidents.
 
-Although not universally applicable, we recommend the following settings (unless advanced users have tested and profiled specialized changes:
+Although not universally applicable, we recommend the following settings (unless advanced users have tested and profiled specialized branching from these standards):
 1. _Anim. Compression_ should be set to **Optimal**
 
 Additionally, here are some common mistakes when working with animation data coming from DCC packages.
@@ -21,9 +21,14 @@ Lastly, even if rigs and animations are imported into Unity with garbage data (f
 Most of these rules apply for most projects that need to minimize memory usage for animation clips. For additional information and the technical explanation of these conclusions were reached, please take a look at the **Raw Data** and **Legend** sections below. 
 
 ## Special Notes
-
+All the data was captured at runtime from a development build running on an iPhone 6s (released in 2015).
 
 ## Raw Data
+The data table below contains the raw data of memory usage, as extracted from the Unity Memory Profiler. All animations were applied to two game objects and captured together in a single **Memory Snapshot**. The three columns with numbers represent, in order (left to right):
+- the in-memory size of the rig/animation when imported as a Humanoid
+- the in-memory size of the rig/animation when imported as Generic
+- the .fbx file size on disk
+
 | Animation Clip Name                                                         | Humanoid In Memory Size (KB) | Generic In Memory Size (KB) | On Disk Size (KB) |
 |-----------------------------------------------------------------------------|:----------------------------:|:---------------------------:|:-----------------:|
 | PolyBod_ShOnly_Skeleton                                                     |             42.5             |             28.5            |        361        |
@@ -37,11 +42,11 @@ Most of these rules apply for most projects that need to minimize memory usage f
 | PolyBod_ShOnly_Anim_Walk_Short_Baked_CompressionKeyframeReduction           |             43.6             |             49.5            |        1274       |
 |                                                                             |                              |                             |                   |
 | PolyBod_ShOnly_Anim_Walk_Long_KeyedPosesOnly_Optimal                        |             104.7            |            141.4            |        1865       |
-| PolyBod_ShOnly_Anim_Walk_Long_KeyedPosesOnly_CompressionOff                 |              600             |             1800            |        1865       |
+| PolyBod_ShOnly_Anim_Walk_Long_KeyedPosesOnly_CompressionOff                 |              614             |             1843            |        1865       |
 | PolyBod_ShOnly_Anim_Walk_Long_KeyedPosesOnly_CompressionKeyframeReduction   |             293.6            |            208.6            |        1865       |
 |                                                                             |                              |                             |                   |
 | PolyBod_ShOnly_Anim_Walk_Long_Baked_CompressionOptimal                      |              103             |            126.4            |       10193       |
-| PolyBod_ShOnly_Anim_Walk_Long_Baked_CompressionOff                          |              600             |             1700            |       10193       |
+| PolyBod_ShOnly_Anim_Walk_Long_Baked_CompressionOff                          |              614             |             1740            |       10193       |
 | PolyBod_ShOnly_Anim_Walk_Long_Baked_CompressionKeyframeReduction            |             293.6            |            265.3            |       10193       |
 |                                                                             |                              |                             |                   |
 | PolyBod_FullRig_Skeleton                                                    |             46.3             |             63.2            |        448        |
@@ -54,11 +59,11 @@ Most of these rules apply for most projects that need to minimize memory usage f
 | PolyBod_FullRig_Anim_Walk_Short_Baked_CompressionKeyframeReduction          |             41.4             |            143.4            |        3135       |
 |                                                                             |                              |                             |                   |
 | PolyBod_FullRig_Anim_Walk_Long_KeyedPosesOnly_Optimal                       |             104.7            |            449.9            |        4156       |
-| PolyBod_FullRig_Anim_Walk_Long_KeyedPosesOnly_CompressionOff                |              600             |             3900            |        4156       |
+| PolyBod_FullRig_Anim_Walk_Long_KeyedPosesOnly_CompressionOff                |              614             |             3993            |        4156       |
 | PolyBod_FullRig_Anim_Walk_Long_KeyedPosesOnly_CompressionKeyframeReduction  |             293.6            |             700             |        4156       |
 |                                                                             |                              |                             |                   |
 | PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionOptimal                     |             104.9            |            472.9            |       21453       |
-| PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionOff                         |              600             |             3900            |       21453       |
+| PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionOff                         |              614             |             3993            |       21453       |
 | PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionKeyframeReduction           |             359.4            |             1400            |       21453       |
 
 Below are some of the screenshots of the raw data, directly from the Unity Memory Profiler.
@@ -103,21 +108,3 @@ Below is a quick explanation of what each file contains:
 - **PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionOptimal**
 - **PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionOff**
 - **PolyBod_FullRig_Anim_Walk_Long_Baked_CompressionKeyframeReduction**
-
-
-
-## Headings
-
-
-
-
-
-
-// multi line code block
-
-function fib(n) {
-  if (n <= 1)
-    return n;
-  return fib(n-2) + fib(n-1);
-}/
-```
