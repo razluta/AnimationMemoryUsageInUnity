@@ -1,3 +1,5 @@
+<DOCUMENT IS STILL A WORK IN PROGRESS, BUT THE DATA IS DONE>
+
 # Animation Memory Usage in Unity [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
 This repository tries to analyze all possible things that could go result in less than optimal memory usage when bringing in different types of 3D animations into Unity.
 
