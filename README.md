@@ -53,7 +53,7 @@ Most of these rules apply for most projects that need to minimize memory usage f
 All the data was captured at runtime from a development build running on an iPhone 6s (released in 2015).
 
 ## Raw Data
-The data table below contains the raw data of memory usage, as extracted from the Unity Memory Profiler. All animations were applied to two game objects and captured together in a single **Memory Snapshot**. The three columns with numbers represent, in order (left to right):
+The data table below contains the raw data of memory usage, as extracted from the [Unity Memory Profiler](https://docs.unity3d.com/Manual/ProfilerMemory.html). All animations were applied to two game objects and captured together in a single **Memory Snapshot**. The three columns with numbers represent, in order (left to right):
 - the in-memory size of the rig/animation when imported as a Humanoid
 - the in-memory size of the rig/animation when imported as Generic
 - the .fbx file size on disk
