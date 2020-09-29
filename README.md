@@ -3,6 +3,7 @@ Best Practices for Optimizing Animation Memeory Usage - This repository attempts
 
 ## Conclusions
 This section summarizes all conclusions reached after studying the data.
+
 ![](/Screenshots/WalkAnimation.gif)
 
 ### Summary
