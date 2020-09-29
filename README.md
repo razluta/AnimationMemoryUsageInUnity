@@ -7,7 +7,7 @@ This section summarizes all conclusions reached after studying the data.
 ![](/Screenshots/WalkAnimation.gif)
 
 ### Summary
-Use complex rigs to generate simple single hierarchy rig skeletons and animations with the minimum amount of keys possible and import it in _Unity_ using the _Animation Compression_ set to **Optimal**. Use the _Animation Masking_ feature to further reduce the size of the animation in the build.
+It is best to use complex rigs (as complex they need to be to achieve the animation in the DCC package) to generate simple single hierarchy rig skeletons and animations with the minimum amount of keys possible and import it in _Unity_ using the _Animation Compression_ set to **Optimal**. Use the _Animation Masking_ feature to further reduce the size of the animation in the build.
 
 The delta between the most optimized and least optimized situation presented in this test, for the same animation, was over 500 KB. If the project has a conservative 20 animations per each character and 10 characters loaded at the same time, that could result in almost 100 MB of wasted runtime memory, which on a low end device such as the iPhone 6s represents a large chunk of the usable memory (and this is worrisome because of 3D projects, typically, textures present and ever bigger threat to memory usage).
 
