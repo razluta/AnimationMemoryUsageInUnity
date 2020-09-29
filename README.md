@@ -21,11 +21,21 @@ Taking a step forward, the right side of the image above is continued in the ima
 
 ![](/Screenshots/SkeletonContents.png)
 
-2. The _Avatar_ generated from the rig should be used for all animations that are supposed to share that rig, otherwise, each animation will end up with its own avatar and will cost additional memory usage. To use an existent _Avatar_ for an animation, the user needs to define it in the import options for the animations as demonstrated in the image below.
+2. The _Avatar_ generated from the rig should be used for all animations that are supposed to share that rig, otherwise, each animation will end up with its own avatar and will cost additional memory usage. To use an existent _Avatar_ for an animation, the user needs to define it in the import options for the animations as demonstrated in the image below. It is very important to only create one _Avatar_ for a rig/character setup. The original skeleton + mesh(es) used to create the _Avatar_ need to contain everything needed to achieve all necessary motion or deformation for that rig. All animations intended to work with the rig need only to be pointed to the existing _Avatar_. By failing to do this setup, the user incurs an added cost for the new _Avatar_, but may additionally incur cost for extrenous data not being eliminated from the animation file (such as a mesh that should not exist or be ignore or such as rig controllers).
 
 ![](/Screenshots/ReuseAvatar.png)
 
 3.  No single animation file should contain the mesh. Each animation should only contain the rig joints and the animation(s) on them (speaking strictly about the exported / published file, not the animation source file). As demonstrated in the examples in the repository, having the mesh in the animation file does not increase the animation size in memory in the built project (because only the animation data is used to generate the _Unity Animation Clip_), but it considerably increases the animation file size on disk. In this example, the size delta is about 300 KB per file. Multiply that by 50 animations per character, in a project of 100 characters, that is over 1.4 GB of wasted space. Additionally, having the mesh in the animation file presents the added risk of accidentally using that mesh in the game in a scene, at which point _Unity_ would have a duplicate of that mesh in memory and the actual runtime memory will also increase by 300 KB times the number of accidents. The image below exemplifies an animation .fbx file that only contains the single hierarchy chain rig with animation on it. It is important to note that the animation is not visible in the scene preview window when dragged directly in the scene because it needs to be applied to an already created _Avatar_.
+
+In the test data, we have built two projects: one with the animation with no mesh and one with the animation with the same mesh. The results are as follows:
+- the build size for both projects was 27609 KB
+- the animation without the mesh was 750 KB on disk, while the animation with the mesh was 1033 KB on disk
+- the animation clip (1) for both was 17 KB in the runtime memory 
+- the mesh (1) for both was 372.3 KB in runtime Memory
+
+Conclussions:
+- even if the mesh exists in the animation file, as long as an already existing _Avatar_ is being used (as opposed to a new one being generated), the mesh will not be duplicated in memory and ignored
+- although having a mesh in the animation might not impact the runtime memory, it may impact import times and generate editor performance 
 
 ![](/Screenshots/AnimationContents.png)
 
