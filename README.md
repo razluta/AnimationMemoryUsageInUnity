@@ -13,7 +13,11 @@ The delta between the most optimized and least optimized situation presented in 
 
 ### Detailed Explanation 
 To best optimize and minimize the memory usage of an animation clip, the following are universally recommended:
-1. The skeleton/rig used to create/define the [Unity Avatar](https://docs.unity3d.com/Manual/class-Avatar.html) should contain the rig and the mesh, but no animation. The image below exemplifies a skeleton .fbx file that only contains the model and the single hierarchy chain rig.
+1. The skeleton/rig used to create/define the [Unity Avatar](https://docs.unity3d.com/Manual/class-Avatar.html) should contain the rig and the mesh, but no animation. The image below showcases a full complex rig with its hierarchy on the left side and a "simplified"/single hierarchy rig (ready for export to Unity on the right side).
+
+![](/Screenshots/RigInDCC.png)
+
+Taken a step forward, the right side of the image above is continued in the image below where it exemplifies a skeleton .fbx file that only contains the model and the single hierarchy chain rig (as seen in Unity).
 
 ![](/Screenshots/SkeletonContents.png)
 
