@@ -40,7 +40,7 @@ Additionally, here are some common mistakes when working with animation data com
 
 Lastly, even if rigs and animations are imported into Unity with garbage data (for example controllers or helper nodes that do not affect the animation) and the user does not have access to improve the source file or cannot improve the soure file, Unity offers the [Animation Mask](https://docs.unity3d.com/Manual/AnimationMaskOnImportedClips.html) as a way to remove this data during the build process. An _Animation Mask_ is a Unity serialized asset that is linked to a skeleton/avatar and can be used and re-used to occlude any animation that uses the avatar. As seen in the image above, the masking can be done visually on a humanoid or by directly ignoring a hierarchy of transforms. It is important to note that, during the build process, the masked animation will be removed from the clip and will result in an lighter animation clip (memory wise) - but all animation in clip will be lost. 
 
-![](/Screenshots/AnimationMask.png)
+![](/Screenshots/AnimationMask.PNG)
 
 Most of these rules apply for most projects that need to minimize memory usage for animation clips. For additional information and the technical explanation of these conclusions were reached, please take a look at the **Raw Data** and **Legend** sections below. 
 
