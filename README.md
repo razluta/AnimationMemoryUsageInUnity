@@ -2,7 +2,7 @@
 Best Practices for Optimizing Animation Memeory Usage - This repository attempts to best analyze all possible outcomes that could result in less than optimal memory usage when bringing in different types of 3D animations into Unity.  While animations are not typically the most memory intensive assets in a project, many 3D mobile games are very animation heavy and as such animation represents a significant part of the data that needs optimization.
 
 ## Conclusions
-This sections summarizes all conclusions reached after studying the data.
+This section summarizes all conclusions reached after studying the data.
 ![](/Screenshots/WalkAnimation.gif)
 
 ### Summary
