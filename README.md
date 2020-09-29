@@ -21,7 +21,7 @@ Taking a step forward, the right side of the image above is continued in the ima
 
 ![](/Screenshots/SkeletonContents.png)
 
-2. The _Avatar_ generated from the rig should be used for all animations that are supposed to share that rig (unless there is an explicit need for a new _Avatar_), otherwise, each animation will end up with its own avatar and will cost additional memory usage. To use an existent _Avatar_ for an animation, the user needs to define it in the import options for the animations as demonstrated in the image below. It is very important to only create one _Avatar_ for a rig/character setup. The original skeleton + mesh(es) used to create the _Avatar_ need to contain everything needed to achieve all necessary motion or deformation for that rig. All animations intended to work with the rig need only to be pointed to the existing _Avatar_. By failing to do this setup, the user incurs an added cost for the new _Avatar_, but may additionally incur cost for extrenous data not being eliminated from the animation file (such as a mesh that should not exist or be ignore or such as rig controllers).
+2. The _Avatar_ generated from the rig should be used for all animations that are supposed to share that rig (unless there is an explicit need for a new _Avatar_, for example, having to use animations that were not created on/for this rig with this rig), otherwise, each animation will end up with its own avatar and will cost additional memory usage. To use an existent _Avatar_ for an animation, the user needs to define it in the import options for the animations as demonstrated in the image below. It is very important to only create one _Avatar_ for a rig/character setup. The original skeleton + mesh(es) used to create the _Avatar_ need to contain everything needed to achieve all necessary motion or deformation for that rig. All animations intended to work with the rig need only to be pointed to the existing _Avatar_. By failing to do this setup, the user incurs an added cost for the new _Avatar_, but may additionally incur cost for extrenous data not being eliminated from the animation file (such as a mesh that should not exist or be ignore or such as rig controllers).
 
 ![](/Screenshots/ReuseAvatar.png)
 
@@ -33,7 +33,7 @@ In the test data, we have built two projects: one with the animation with no mes
 - the animation clip (1) for both was 17 KB in the runtime memory 
 - the mesh (1) for both was 372.3 KB in runtime Memory
 
-Conclussions:
+Conclusions:
 - even if the mesh exists in the animation file, as long as an already existing _Avatar_ is being used (as opposed to a new one being generated), the mesh will not be duplicated in memory and ignored
 - although having a mesh in the animation might not impact the runtime memory, it may increase size on disk (project size), import times and general editor performance 
 
