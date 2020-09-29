@@ -4,6 +4,8 @@ This repository attempts to best analyze all possible outcomes that could result
 ## Conclusions
 This sections summarizes all conclusions reached after studying the data.
 
+![](/Screenshots/WalkAnimation.gif)
+
 ### Summary
 Use complex rigs to generate simple single hierarchy rig skeletons and animations with the minimum amount of keys possible and import it in _Unity_ using the _Animation Compression_ set to **Optimal**. Use _Animation Masking_ feature to further reduce the size of the animation in the build.
 
