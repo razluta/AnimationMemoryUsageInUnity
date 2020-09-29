@@ -35,7 +35,7 @@ In the test data, we have built two projects: one with the animation with no mes
 
 Conclussions:
 - even if the mesh exists in the animation file, as long as an already existing _Avatar_ is being used (as opposed to a new one being generated), the mesh will not be duplicated in memory and ignored
-- although having a mesh in the animation might not impact the runtime memory, it may impact import times and generate editor performance 
+- although having a mesh in the animation might not impact the runtime memory, it may increase size on disk (project size), import times and general editor performance 
 
 ![](/Screenshots/AnimationContents.png)
 
