@@ -90,7 +90,7 @@ The data table below contains the raw data of memory usage, as extracted from th
 Below are some of the screenshots of the raw data, directly from the Unity Memory Profiler.
 The image below is a screenshot of the raw data in the Memory Profiler when using a Humanoid import.
 
-![](/Screenshots/DeviceMemoryUsage_Humanoid.png)
+![](/Screenshots/DeviceMemoryUsage_Humanoid.PNG)
 
 The image below is a screenshot of the raw data in the Memory Profiler when using a Generic import.
 
