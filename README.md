@@ -17,7 +17,7 @@ To best optimize and minimize the memory usage of an animation clip, the followi
 
 ![](/Screenshots/SkeletonContents.png)
 
-2. The Avatar generated from the rig should be used for all animations that are supposed to share that rig, otherwise each animation will end up with its own avatar and cost additional memory usage. To use an existent avatar for an animation, the user need to define it in the import options for the animations as demonstrated in the image below.
+2. The Avatar generated from the rig should be used for all animations that are supposed to share that rig, otherwise each animation will end up with its own avatar and will cost additional memory usage. To use an existent avatar for an animation, the user need to define it in the import options for the animations as demonstrated in the image below.
 
 ![](/Screenshots/ReuseAvatar.png)
 
