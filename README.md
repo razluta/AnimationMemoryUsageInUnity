@@ -1,9 +1,8 @@
 # Animation Memory Usage in Unity [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
-This repository attempts to best analyze all possible outcomes that could result in less than optimal memory usage when bringing in different types of 3D animations into Unity.
+This repository attempts to best analyze all possible outcomes that could result in less than optimal memory usage when bringing in different types of 3D animations into Unity.  While animations are not typically the most memory intensive assets in a project, many 3D mobile games are very animation heavy and as such animation represents a significant part of the data that needs optimization.
 
 ## Conclusions
 This sections summarizes all conclusions reached after studying the data.
-
 ![](/Screenshots/WalkAnimation.gif)
 
 ### Summary
@@ -39,7 +38,9 @@ Additionally, here are some common mistakes when working with animation data com
 - when exported with only the single hierarchy rig and imported with optimal compression, the short walk animation with all keys baked was 17 KB <> when exported with only the full rig and imported with optimal compression, the short walk animation with all keys baked was 70 KB
 2. Animations should not be set to bake all keyframes on export or be pre-baked in the original source animation file. If an animation is pre-baked on all keyframes in the original source file, it is very difficult to update and iterate on the file. Additionally, it automatically means the exported result will be baked as well. Similarly, if an animation is set to be baked on export, all keyframes in range will have an animation key resulting in a large animation data set. Unity has ways of compressing the data that is present in the animation clip (for example the [Animation Compression](https://docs.unity3d.com/Manual/class-AnimationClip.html) import settings), but it is even better if only the needed keyframes are kept. If the artistic quality is not met because of how Unity interprets the animation curves differently than the DCC packages, the user can either selectively bake a problematic section of the animation (as opposed to baking the entire animation) or disable the [_Resample Curves_](https://docs.unity3d.com/Manual/class-AnimationClip.html) option (the option is enabled by default - if disabled it will "keep animation curves as they were originally authored". 
 
-Lastly, even if rigs and animations are imported into Unity with garbage data (for example controllers or helper nodes that do not affect the animation), Unity offers the [Animation Mask](https://docs.unity3d.com/Manual/AnimationMaskOnImportedClips.html) as a way to remove this data during the build process.
+Lastly, even if rigs and animations are imported into Unity with garbage data (for example controllers or helper nodes that do not affect the animation) and the user does not have access to improve the source file or cannot improve the soure file, Unity offers the [Animation Mask](https://docs.unity3d.com/Manual/AnimationMaskOnImportedClips.html) as a way to remove this data during the build process. An _Animation Mask_ is a Unity serialized asset that is linked to a skeleton/avatar and can be used and re-used to occlude any animation that uses the avatar. As seen in the image above, the masking can be done visually on a humanoid or by directly ignoring a hierarchy of transforms. It is important to note that, during the build process, the masked animation will be removed from the clip and will result in an lighter animation clip (memory wise) - but all animation in clip will be lost. 
+
+![](/Screenshots/AnimationMask.png)
 
 Most of these rules apply for most projects that need to minimize memory usage for animation clips. For additional information and the technical explanation of these conclusions were reached, please take a look at the **Raw Data** and **Legend** sections below. 
 
