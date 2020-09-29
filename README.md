@@ -104,7 +104,7 @@ The image below is a screenshot of the raw data in the Memory Profiler when usin
 
 ![](/Screenshots/DeviceMemoryUsage_Generic.png)
 
-_It is important to note that the Humanoid animations seem to be better optimized for memory than the Generic animations and that is because Unity, at build time, scraps the data that doesn't map to the Humanoid avatar and it the process reduces memory usage. The same optimization result can be achieved on the Generic animations by either improving the import data in the DCC package or by using Animation Masking in Unity._
+_It is important to note that the Humanoid animations seem to be better optimized for memory than the Generic animations and that is because Unity, at build time, scraps the data that doesn't map to the Humanoid Avatar and it the process reduces memory usage. The same optimization result can be achieved on the Generic animations by either improving the import data in the DCC package or by using Animation Masking in Unity._
 
 ## Legend
 The .fbx rig and animation files were generated using Autodesk Maya 2020, but the same measurements and rules apply for rigs and animations generated from any DCC packages. The rig was generated using Maya's HumanIK System (HIK), but the same concepts apply to any rig system.
